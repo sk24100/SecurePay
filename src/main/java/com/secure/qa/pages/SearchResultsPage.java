@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.secure.qa.base.TestBase;
 
+import junit.framework.Assert;
+
 public class SearchResultsPage extends TestBase {
 
 	@FindBy(xpath="//div[@id='tvcap']//h3[contains(text(),'SecurePay')]")
@@ -15,6 +17,7 @@ public class SearchResultsPage extends TestBase {
 	
 	public SearchResultsPage() {
 		PageFactory.initElements(driver, this);
+		
 	}
 	
 	public SecurePayPage clickOnSecurePay() throws InterruptedException {

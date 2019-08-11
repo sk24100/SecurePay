@@ -1,0 +1,7 @@
+com\secure\qa\pages\SearchResultsPage.class
+com\secure\qa\util\RandomUtil.class
+com\secure\qa\pages\GooglePage.class
+com\secure\qa\base\TestBase.class
+com\secure\qa\pages\ContactUsPage.class
+com\secure\qa\pages\SecurePayPage.class
+com\secure\qa\util\TestUtil.class

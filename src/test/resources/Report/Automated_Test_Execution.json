@@ -1,0 +1,193 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "1 - Contact us form filled with random data",
+        "description": "",
+        "id": "contactus-form;1---contact-us-form-filled-with-random-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29160435428,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch contactus page from secure pay",
+            "match": {
+              "location": "ContactUsPageTest.setUp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3453088787,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be able validate if contactus page is loaded",
+            "match": {
+              "location": "ContactUsPageTest.verifyContactUsPageLoads()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 151320109,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter random value in First Name",
+            "match": {
+              "location": "ContactUsPageTest.enterRandomFirstName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133581559,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter random value in Last Name",
+            "match": {
+              "location": "ContactUsPageTest.enterRandomLastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221791320,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter random value in Email",
+            "match": {
+              "location": "ContactUsPageTest.enterRandomEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156321786,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter random Phone",
+            "match": {
+              "location": "ContactUsPageTest.enterPhone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 380554213,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter random URL",
+            "match": {
+              "location": "ContactUsPageTest.enterURL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5151726295,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter random company Name",
+            "match": {
+              "location": "ContactUsPageTest.enterCompanyName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5262025475,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter random reason",
+            "match": {
+              "location": "ContactUsPageTest.enterReason()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 925701868,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i close the browser",
+            "match": {
+              "location": "ContactUsPageTest.tearDown()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contactus"
+          },
+          {
+            "name": "@functional"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@local-en"
+          },
+          {
+            "name": "@test01"
+          }
+        ]
+      }
+    ],
+    "name": "ContactUs form",
+    "description": "",
+    "id": "contactus-form",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/FeatureFiles/ContactUs.feature",
+    "tags": [
+      {
+        "name": "@contactus",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@functional",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 12
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 24
+        }
+      },
+      {
+        "name": "@local-en",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 36
+        }
+      }
+    ]
+  }
+]

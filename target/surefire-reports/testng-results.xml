@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="45538" started-at="2019-08-11T11:13:26Z" finished-at="2019-08-11T11:14:12Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@4cb2c100]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="45538" started-at="2019-08-11T11:13:26Z" finished-at="2019-08-11T11:14:12Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@4cb2c100]" name="setUpClass" is-config="true" duration-ms="171" started-at="2019-08-11T16:43:26Z" finished-at="2019-08-11T16:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@4cb2c100]" name="runScenario" duration-ms="45214" started-at="2019-08-11T16:43:26Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-08-11T16:44:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["1 - Contact us form filled with random data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["ContactUs form"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@4cb2c100]" name="tearDownClass" is-config="true" duration-ms="89" started-at="2019-08-11T16:44:12Z" finished-at="2019-08-11T16:44:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
