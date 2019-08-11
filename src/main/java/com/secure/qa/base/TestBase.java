@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -50,4 +51,22 @@ public class TestBase {
 		driver.get(prop.getProperty("url"));
 	}
 
+	public void waitForPageReady() {
+		try {
+			String sPageInteractiveStatus = "";
+			for (int iPageStatusLoop = 0; iPageStatusLoop < 60; iPageStatusLoop++) {
+				if (sPageInteractiveStatus.equalsIgnoreCase("complete")
+						|| sPageInteractiveStatus.equalsIgnoreCase("interactive")) {
+					Thread.sleep(500);
+					break;
+				} else {
+					Thread.sleep(1000);
+					sPageInteractiveStatus = String.valueOf(((JavascriptExecutor) driver)
+							.executeScript("return document.readyState"));
+				}
+			}
+		} catch (Exception e) {
+			System.out.println("error while getting page interactive status; " + e);
+		}
+	}
 }

@@ -2,19 +2,23 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="57270" started-at="2019-08-11T10:13:51Z" finished-at="2019-08-11T10:14:49Z">
+  <suite name="Default suite" duration-ms="30461" started-at="2019-08-11T12:44:11Z" finished-at="2019-08-11T12:44:41Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@1bce4f0a]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@5c3bd550]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="57270" started-at="2019-08-11T10:13:51Z" finished-at="2019-08-11T10:14:49Z">
+    <test name="Default test" duration-ms="30461" started-at="2019-08-11T12:44:11Z" finished-at="2019-08-11T12:44:41Z">
       <class name="runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@1bce4f0a]" name="setUpClass" is-config="true" duration-ms="449" started-at="2019-08-11T15:43:51Z" finished-at="2019-08-11T15:43:52Z">
+        <test-method status="PASS" signature="setUpSuit()[pri:0, instance:runner.TestRunner@5c3bd550]" name="setUpSuit" is-config="true" duration-ms="20" started-at="2019-08-11T18:14:11Z" finished-at="2019-08-11T18:14:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuit -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@5c3bd550]" name="setUpClass" is-config="true" duration-ms="108" started-at="2019-08-11T18:14:11Z" finished-at="2019-08-11T18:14:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@1bce4f0a]" name="runScenario" duration-ms="56407" started-at="2019-08-11T15:43:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-08-11T15:44:48Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@5c3bd550]" name="runScenario" duration-ms="30268" started-at="2019-08-11T18:14:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-08-11T18:14:41Z">
           <params>
             <param index="0">
               <value>
@@ -30,10 +34,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@1bce4f0a]" name="tearDownClass" is-config="true" duration-ms="186" started-at="2019-08-11T15:44:48Z" finished-at="2019-08-11T15:44:49Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@5c3bd550]" name="tearDownClass" is-config="true" duration-ms="41" started-at="2019-08-11T18:14:41Z" finished-at="2019-08-11T18:14:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:runner.TestRunner@5c3bd550]" name="generateReport" is-config="true" duration-ms="1254" started-at="2019-08-11T18:14:41Z" finished-at="2019-08-11T18:14:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
       </class> <!-- runner.TestRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

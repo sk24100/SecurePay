@@ -24,7 +24,7 @@ public class GooglePage extends TestBase{
 	public SearchResultsPage enterSearchData(String data) throws InterruptedException {
 		googleSearchEdit.sendKeys(data);
 		googleSearchBTN.click();
-		Thread.sleep(4000);
+		waitForPageReady();
 		
 		return new SearchResultsPage();
 	}

@@ -22,7 +22,7 @@ public class SearchResultsPage extends TestBase {
 	
 	public SecurePayPage clickOnSecurePay() throws InterruptedException {
 		securePayLnk.click();		
-		Thread.sleep(4000);
+		waitForPageReady();
 		
 		return new SecurePayPage();
 	}

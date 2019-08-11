@@ -29,7 +29,7 @@ public class SecurePayPage extends TestBase {
 	public ContactUsPage clickOnContactUs() throws InterruptedException {
 		
 		contactUsLnk.click();
-		Thread.sleep(3000);
+		waitForPageReady();
 		
 		return new ContactUsPage();
 	}
