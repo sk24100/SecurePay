@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" parallel="tests"
+	name="Authoring Parallel test runs">
+
+	<test name="Thread-1">
+		<classes>
+
+			<class name="runner.ScriptRunner" />
+
+		</classes>
+	</test>
+
+</suite>
+						
+								
+											
+											
+													
+															
+															
